@@ -13,25 +13,25 @@
 - **循序渐进：** 从基础 API 调用到复杂 Agent 开发，层层递进
 - **配套资源：** 包含手写笔记图片、示例数据文件等辅助材料
 
-## 📖 完整教程文档
+## 📖 阅读方式
 
-👉 **[点击阅读完整教程 LangChain-Tutorial.md](./LangChain-Tutorial.md)**
+- � **完整文档（单文件）：** [LangChain-Tutorial.md](./LangChain-Tutorial.md)
+- 📚 **分章节阅读：** 点击下方目录跳转对应章节
 
-## 🧭 教程目录
+## 🧭 教程目录（点击跳转）
 
-### 一、RAG 与 Agent 概述
+### 一、[RAG 与 Agent 概述](./chapters/01_RAG与Agent概述.md)
 - 大模型的优缺点分析
 - 企业核心需求
 - RAG 与 Agent 的优势对比
 - 开发框架选型：LangChain
 
-### 二、前置准备 - 大模型接入
+### 二、[前置准备 - 大模型接入](./chapters/02_前置准备-大模型接入.md)
 - 阿里云百炼平台配置与 API Key 获取
 - 使用环境变量保护密钥
 - 本地 Ollama 部署与代码调用
-- 详细内容请查看 [完整教程 LangChain-Tutorial.md](./LangChain-Tutorial.md)
 
-### 三、OpenAI 库的基础使用
+### 三、[OpenAI 库的基础使用](./chapters/03_OpenAI库基础使用.md)
 - [代码示例：1.OpenAI库的基础使用/](./1.OpenAI库的基础使用/)
   - `01.APIKEY.py` - API Key 配置
   - `02.本地调用大模型.py` - Ollama 本地模型调用
@@ -39,7 +39,7 @@
   - `04.OpenAI库的流式输出.py` - 流式输出实现
   - `05.OpenAI库附带历史消息调用模型.py` - 多轮对话
 
-### 四、提示词工程
+### 四、[提示词工程](./chapters/04_提示词工程.md)
 - 提示词优化技巧
 - Zero-shot 与 Few-shot 思想
 - [代码示例：2.提示词优化/](./2.提示词优化/)
@@ -48,13 +48,13 @@
   - `03提示词优化案例_金融信息抽取.py` - 结构化信息抽取
   - `04提示词优化案例_金融文本匹配判断.py` - 文本匹配任务
 
-### 五、RAG 核心概念
+### 五、[RAG 核心概念](./chapters/05_RAG核心概念.md)
 - LangChain 框架简介
 - RAG 工作原理与标准流程
 - 向量基础概念与嵌入模型
 - 余弦相似度算法实现
 
-### 六、RAG 开发实战
+### 六、[RAG 开发实战](./chapters/06_RAG开发实战.md)
 - [代码示例：3.LangChainRAG开发/](./3.LangChainRAG开发/)
 
 #### 模型调用
@@ -95,7 +95,7 @@
 - `28向量检索构建提示词.py` - 检索增强
 - `29RunnablePassthrough的使用.py` - RAG 链构建
 
-### 七、Agent 智能体开发
+### 七、[Agent 智能体开发](./chapters/07_Agent智能体开发.md)
 - [代码示例：4.Agent智能体/](./4.Agent智能体/)
   - `01Agent智能体初体验.py` - Agent 创建与工具调用
   - `02Agent的stream流式输出.py` - Agent 流式输出
@@ -107,7 +107,15 @@
 ```
 LangChain教程/
 ├── README.md                          # 项目说明文档（本文件）
-├── LangChain-Tutorial.md                       # 完整教程文档（主文件）
+├── LangChain-Tutorial.md              # 完整教程文档（单文件版）
+├── chapters/                          # 拆分后的分章节文档
+│   ├── 01_RAG与Agent概述.md
+│   ├── 02_前置准备-大模型接入.md
+│   ├── 03_OpenAI库基础使用.md
+│   ├── 04_提示词工程.md
+│   ├── 05_RAG核心概念.md
+│   ├── 06_RAG开发实战.md
+│   └── 07_Agent智能体开发.md
 ├── img/                               # 教程配图文件夹
 │   ├── 1.png ~ 35.png                # 原理示意图、流程图
 │   └── 1.jpg ~ 11.jpg                # 手写笔记图片
