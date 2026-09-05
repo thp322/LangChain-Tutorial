@@ -15,7 +15,7 @@
 
 ## 📖 完整教程文档
 
-👉 **[点击阅读完整教程 RAG_Agent.md](./RAG_Agent.md)**
+👉 **[点击阅读完整教程 LangChain-Tutorial.md](./LangChain-Tutorial.md)**
 
 ## 🧭 教程目录
 
@@ -29,7 +29,7 @@
 - 阿里云百炼平台配置与 API Key 获取
 - 使用环境变量保护密钥
 - 本地 Ollama 部署与代码调用
-- 详细内容请查看 [完整教程 RAG_Agent.md](./RAG_Agent.md)
+- 详细内容请查看 [完整教程 LangChain-Tutorial.md](./LangChain-Tutorial.md)
 
 ### 三、OpenAI 库的基础使用
 - [代码示例：1.OpenAI库的基础使用/](./1.OpenAI库的基础使用/)
@@ -107,7 +107,7 @@
 ```
 LangChain教程/
 ├── README.md                          # 项目说明文档（本文件）
-├── RAG_Agent.md                       # 完整教程文档（主文件）
+├── LangChain-Tutorial.md                       # 完整教程文档（主文件）
 ├── img/                               # 教程配图文件夹
 │   ├── 1.png ~ 35.png                # 原理示意图、流程图
 │   └── 1.jpg ~ 11.jpg                # 手写笔记图片
@@ -217,7 +217,7 @@ ollama run deepseek-r1:1.5b
 ## 📚 学习路线建议
 
 ```
-第1步：阅读 RAG_Agent.md 全文，建立整体认知
+第1步：阅读 LangChain-Tutorial.md 全文，建立整体认知
     ↓
 第2步：完成 OpenAI 库基础使用（章节三），打通 API 调用
     ↓
@@ -249,7 +249,7 @@ ollama run deepseek-r1:1.5b
 
 ## 📄 手写笔记
 
-教程末尾附有作者整理的手写笔记（共 11 张图片），方便快速回顾核心知识点，请在 [完整教程 RAG_Agent.md](./RAG_Agent.md) 底部查看。
+教程末尾附有作者整理的手写笔记（共 11 张图片），方便快速回顾核心知识点，请在 [完整教程 LangChain-Tutorial.md](./LangChain-Tutorial.md) 底部查看。
 
 ## 🔗 相关资源
 
