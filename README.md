@@ -6,6 +6,8 @@
 
 **适用人群：** 具备 Python 基础，希望系统学习大模型应用开发的开发者。
 
+**更多内容可访问个人博客：**[LangChain 开发 —— RAG 与 Agent 基础 | Harper's blog](https://harperlog.cn/posts/langchain)
+
 ## 🎯 教程特色
 
 - **理论 + 实战：** 每个知识点都配有完整可运行的代码示例
